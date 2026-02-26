@@ -1,0 +1,464 @@
+transaction_id,date,category,vendor,amount,payment_method,budget_allocated
+TXN-0001,2025-07-01,Transportation,Metro Card,14.39,Cash,90
+TXN-0002,2025-07-01,Health,Walgreens,21.22,Credit Card,60
+TXN-0003,2025-07-01,Entertainment,Concert Tickets,17.17,Debit Card,80
+TXN-0004,2025-07-01,Entertainment,Netflix,13.98,Credit Card,80
+TXN-0005,2025-07-02,Groceries,Costco,22.89,Debit Card,280
+TXN-0006,2025-07-02,Groceries,Costco,8.35,Debit Card,280
+TXN-0007,2025-07-03,Groceries,Costco,14.71,Debit Card,280
+TXN-0008,2025-07-04,Groceries,Walmart,20.61,Cash,280
+TXN-0009,2025-07-04,Dining Out,Subway,9.43,Debit Card,120
+TXN-0010,2025-07-05,Dining Out,Starbucks,5.47,Credit Card,120
+TXN-0011,2025-07-05,Transportation,Parking Meter,7.18,Debit Card,90
+TXN-0012,2025-07-06,Subscriptions,iCloud,15.0,Cash,45
+TXN-0013,2025-07-06,Transportation,Metro Card,11.21,Venmo,90
+TXN-0014,2025-07-07,Groceries,Aldi,25.91,Apple Pay,280
+TXN-0015,2025-07-07,Dining Out,Panera,17.39,Apple Pay,120
+TXN-0016,2025-07-07,Dining Out,Chipotle,4.76,Venmo,120
+TXN-0017,2025-07-07,Dining Out,Campus Cafe,7.41,Cash,120
+TXN-0018,2025-07-08,Entertainment,Concert Tickets,17.27,Debit Card,80
+TXN-0019,2025-07-08,Groceries,Safeway,16.8,Credit Card,280
+TXN-0020,2025-07-08,Textbooks,Amazon,3.0,Cash,60
+TXN-0021,2025-07-08,Entertainment,Steam,12.08,Cash,80
+TXN-0022,2025-07-08,Dining Out,Campus Cafe,12.29,Debit Card,120
+TXN-0023,2025-07-09,Groceries,Walmart,18.78,Apple Pay,280
+TXN-0024,2025-07-09,Transportation,Lyft,12.84,Debit Card,90
+TXN-0025,2025-07-09,Dining Out,Thai Express,5.52,Debit Card,120
+TXN-0026,2025-07-11,Rent,Campus Housing Office,850.0,Venmo,850
+TXN-0027,2025-07-12,Transportation,Lyft,11.21,Cash,90
+TXN-0028,2025-07-12,Groceries,Walmart,18.16,Debit Card,280
+TXN-0029,2025-07-12,Groceries,Walmart,21.8,Credit Card,280
+TXN-0030,2025-07-12,Dining Out,Campus Cafe,13.18,Venmo,120
+TXN-0031,2025-07-13,Dining Out,Chipotle,10.75,Debit Card,120
+TXN-0032,2025-07-13,Entertainment,Steam,18.55,Venmo,80
+TXN-0033,2025-07-14,Entertainment,Concert Tickets,29.31,Apple Pay,80
+TXN-0034,2025-07-14,Health,CVS Pharmacy,17.73,Credit Card,60
+TXN-0035,2025-07-14,Health,Walgreens,15.74,Debit Card,60
+TXN-0036,2025-07-14,Dining Out,Campus Cafe,3.0,Venmo,120
+TXN-0037,2025-07-15,Dining Out,Starbucks,5.78,Debit Card,120
+TXN-0038,2025-07-15,Transportation,Metro Card,6.54,Debit Card,90
+TXN-0039,2025-07-16,Entertainment,Bowling Alley,8.53,Debit Card,80
+TXN-0040,2025-07-16,Textbooks,Amazon,36.67,Credit Card,60
+TXN-0041,2025-07-16,Transportation,Uber,3.0,Debit Card,90
+TXN-0042,2025-07-17,Subscriptions,Netflix,15.0,Apple Pay,45
+TXN-0043,2025-07-18,Health,Campus Health Center,20.68,Apple Pay,60
+TXN-0044,2025-07-18,Groceries,Trader Joe's,34.39,Debit Card,280
+TXN-0045,2025-07-19,Entertainment,Concert Tickets,16.61,Venmo,80
+TXN-0046,2025-07-20,Groceries,Costco,25.84,Credit Card,280
+TXN-0047,2025-07-20,Dining Out,Subway,3.25,Credit Card,120
+TXN-0048,2025-07-20,Dining Out,Subway,11.64,Venmo,120
+TXN-0049,2025-07-20,Groceries,Aldi,14.19,Cash,280
+TXN-0050,2025-07-21,Transportation,Gas Station,8.02,Debit Card,90
+TXN-0051,2025-07-21,Groceries,Costco,16.36,Debit Card,280
+TXN-0052,2025-07-21,Groceries,Aldi,16.36,Credit Card,280
+TXN-0053,2025-07-24,Transportation,Uber,4.17,Debit Card,90
+TXN-0054,2025-07-24,Dining Out,Pizza Hut,9.44,Cash,120
+TXN-0055,2025-07-24,Entertainment,Netflix,15.48,Debit Card,80
+TXN-0056,2025-07-24,Transportation,Metro Card,6.98,Debit Card,90
+TXN-0057,2025-07-25,Textbooks,eBay,25.72,Debit Card,60
+TXN-0058,2025-07-25,Dining Out,Campus Cafe,5.69,Credit Card,120
+TXN-0059,2025-07-26,Dining Out,Subway,8.36,Debit Card,120
+TXN-0060,2025-07-26,Dining Out,Campus Cafe,6.1,Credit Card,120
+TXN-0061,2025-07-26,Clothing,Nike,33.72,Cash,50
+TXN-0062,2025-07-27,Transportation,Metro Card,12.12,Cash,90
+TXN-0063,2025-07-27,Entertainment,AMC Theaters,16.51,Debit Card,80
+TXN-0064,2025-07-28,Health,CVS Pharmacy,11.38,Debit Card,60
+TXN-0065,2025-07-28,Groceries,Aldi,15.01,Credit Card,280
+TXN-0066,2025-07-28,Groceries,Walmart,3.81,Debit Card,280
+TXN-0067,2025-07-28,Dining Out,Pizza Hut,5.23,Debit Card,120
+TXN-0068,2025-07-28,Dining Out,Panera,14.58,Debit Card,120
+TXN-0069,2025-07-29,Entertainment,Spotify,9.07,Cash,80
+TXN-0070,2025-07-29,Subscriptions,iCloud,15.0,Credit Card,45
+TXN-0071,2025-07-30,Subscriptions,Adobe CC,15.0,Debit Card,45
+TXN-0072,2025-07-30,Utilities,Electric Co.,120.47,Debit Card,100
+TXN-0073,2025-07-30,Entertainment,AMC Theaters,19.51,Cash,80
+TXN-0074,2025-07-31,Groceries,Walmart,15.53,Venmo,280
+TXN-0075,2025-07-31,Clothing,Nike,38.9,Debit Card,50
+TXN-0076,2025-07-31,Transportation,Metro Card,9.62,Debit Card,90
+TXN-0077,2025-08-01,Entertainment,Bowling Alley,16.03,Cash,80
+TXN-0078,2025-08-02,Transportation,Uber,10.46,Credit Card,90
+TXN-0079,2025-08-02,Clothing,Nike,33.23,Apple Pay,50
+TXN-0080,2025-08-02,Entertainment,Spotify,17.24,Apple Pay,80
+TXN-0081,2025-08-03,Entertainment,Netflix,13.45,Debit Card,80
+TXN-0082,2025-08-03,Dining Out,Thai Express,3.66,Debit Card,120
+TXN-0083,2025-08-04,Dining Out,Chick-fil-A,13.78,Debit Card,120
+TXN-0084,2025-08-04,Entertainment,Steam,4.95,Cash,80
+TXN-0085,2025-08-04,Groceries,Costco,22.0,Venmo,280
+TXN-0086,2025-08-04,Entertainment,Steam,18.92,Cash,80
+TXN-0087,2025-08-04,Transportation,Gas Station,5.57,Debit Card,90
+TXN-0088,2025-08-05,Health,Campus Health Center,17.5,Venmo,60
+TXN-0089,2025-08-05,Health,GNC,10.49,Venmo,60
+TXN-0090,2025-08-05,Groceries,Costco,16.04,Debit Card,280
+TXN-0091,2025-08-07,Transportation,Metro Card,4.36,Debit Card,90
+TXN-0092,2025-08-07,Groceries,Costco,34.72,Debit Card,280
+TXN-0093,2025-08-07,Rent,Campus Housing Office,850.0,Debit Card,850
+TXN-0094,2025-08-07,Dining Out,Chick-fil-A,15.22,Venmo,120
+TXN-0095,2025-08-08,Dining Out,Subway,17.77,Venmo,120
+TXN-0096,2025-08-08,Entertainment,Netflix,19.16,Credit Card,80
+TXN-0097,2025-08-09,Dining Out,Thai Express,5.09,Debit Card,120
+TXN-0098,2025-08-09,Transportation,Lyft,7.25,Venmo,90
+TXN-0099,2025-08-09,Subscriptions,iCloud,15.0,Debit Card,45
+TXN-0100,2025-08-10,Dining Out,Chick-fil-A,10.01,Cash,120
+TXN-0101,2025-08-10,Dining Out,Campus Cafe,15.68,Debit Card,120
+TXN-0102,2025-08-10,Dining Out,Campus Cafe,18.39,Apple Pay,120
+TXN-0103,2025-08-12,Transportation,Gas Station,10.61,Apple Pay,90
+TXN-0104,2025-08-12,Transportation,Gas Station,8.18,Credit Card,90
+TXN-0105,2025-08-12,Transportation,Parking Meter,4.47,Apple Pay,90
+TXN-0106,2025-08-12,Health,CVS Pharmacy,12.85,Credit Card,60
+TXN-0107,2025-08-13,Health,Walgreens,9.81,Debit Card,60
+TXN-0108,2025-08-13,Dining Out,Pizza Hut,7.27,Debit Card,120
+TXN-0109,2025-08-13,Entertainment,Steam,14.35,Apple Pay,80
+TXN-0110,2025-08-15,Transportation,Parking Meter,6.63,Debit Card,90
+TXN-0111,2025-08-15,Groceries,Costco,25.95,Credit Card,280
+TXN-0112,2025-08-16,Dining Out,Panera,3.0,Credit Card,120
+TXN-0113,2025-08-16,Groceries,Walmart,13.77,Venmo,280
+TXN-0114,2025-08-16,Transportation,Metro Card,3.0,Credit Card,90
+TXN-0115,2025-08-16,Transportation,Uber,3.41,Debit Card,90
+TXN-0116,2025-08-17,Transportation,Metro Card,10.43,Debit Card,90
+TXN-0117,2025-08-17,Entertainment,Bowling Alley,10.77,Cash,80
+TXN-0118,2025-08-17,Subscriptions,Adobe CC,15.0,Debit Card,45
+TXN-0119,2025-08-17,Groceries,Trader Joe's,11.75,Venmo,280
+TXN-0120,2025-08-17,Health,CVS Pharmacy,9.08,Apple Pay,60
+TXN-0121,2025-08-17,Health,GNC,3.0,Credit Card,60
+TXN-0122,2025-08-17,Transportation,Uber,9.57,Credit Card,90
+TXN-0123,2025-08-18,Utilities,Internet Provider,74.3,Venmo,100
+TXN-0124,2025-08-18,Transportation,Parking Meter,7.27,Debit Card,90
+TXN-0125,2025-08-18,Entertainment,AMC Theaters,7.84,Venmo,80
+TXN-0126,2025-08-18,Groceries,Costco,30.9,Cash,280
+TXN-0127,2025-08-19,Dining Out,Chipotle,12.23,Apple Pay,120
+TXN-0128,2025-08-19,Groceries,Costco,13.37,Cash,280
+TXN-0129,2025-08-20,Clothing,Uniqlo,45.52,Credit Card,50
+TXN-0130,2025-08-20,Textbooks,eBay,52.02,Venmo,60
+TXN-0131,2025-08-21,Health,Campus Health Center,35.31,Cash,60
+TXN-0132,2025-08-21,Subscriptions,ChatGPT Plus,15.0,Venmo,45
+TXN-0133,2025-08-21,Dining Out,Pizza Hut,9.08,Debit Card,120
+TXN-0134,2025-08-21,Transportation,Lyft,4.9,Credit Card,90
+TXN-0135,2025-08-21,Groceries,Safeway,8.94,Credit Card,280
+TXN-0136,2025-08-21,Dining Out,Chick-fil-A,12.65,Cash,120
+TXN-0137,2025-08-23,Rent,Campus Housing Office,850.0,Credit Card,850
+TXN-0138,2025-08-23,Transportation,Parking Meter,6.97,Credit Card,90
+TXN-0139,2025-08-23,Groceries,Walmart,9.6,Credit Card,280
+TXN-0140,2025-08-23,Dining Out,Panera,15.86,Credit Card,120
+TXN-0141,2025-08-23,Groceries,Aldi,18.61,Venmo,280
+TXN-0142,2025-08-25,Textbooks,Campus Bookstore,70.88,Venmo,60
+TXN-0143,2025-08-25,Entertainment,Concert Tickets,25.38,Debit Card,80
+TXN-0144,2025-08-25,Groceries,Safeway,13.85,Debit Card,280
+TXN-0145,2025-08-25,Textbooks,Chegg,84.25,Credit Card,60
+TXN-0146,2025-08-26,Groceries,Safeway,23.97,Debit Card,280
+TXN-0147,2025-08-26,Groceries,Trader Joe's,24.06,Credit Card,280
+TXN-0148,2025-08-26,Entertainment,Netflix,18.88,Cash,80
+TXN-0149,2025-08-28,Groceries,Walmart,7.95,Debit Card,280
+TXN-0150,2025-08-28,Clothing,H&M,21.58,Credit Card,50
+TXN-0151,2025-08-28,Dining Out,Chipotle,12.66,Credit Card,120
+TXN-0152,2025-08-28,Groceries,Costco,15.66,Apple Pay,280
+TXN-0153,2025-08-29,Groceries,Walmart,26.41,Venmo,280
+TXN-0154,2025-08-29,Entertainment,Bowling Alley,13.39,Cash,80
+TXN-0155,2025-08-29,Entertainment,Bowling Alley,6.0,Apple Pay,80
+TXN-0156,2025-08-29,Transportation,Lyft,11.43,Apple Pay,90
+TXN-0157,2025-08-30,Groceries,Safeway,21.53,Debit Card,280
+TXN-0158,2025-08-30,Groceries,Safeway,19.29,Cash,280
+TXN-0159,2025-08-31,Groceries,Safeway,22.05,Cash,280
+TXN-0160,2025-08-31,Subscriptions,Adobe CC,15.0,Apple Pay,45
+TXN-0161,2025-08-31,Textbooks,Amazon,90.25,Debit Card,60
+TXN-0162,2025-09-01,Transportation,Uber,9.84,Debit Card,90
+TXN-0163,2025-09-01,Transportation,Parking Meter,9.06,Apple Pay,90
+TXN-0164,2025-09-01,Entertainment,Netflix,11.06,Credit Card,80
+TXN-0165,2025-09-02,Groceries,Aldi,25.86,Debit Card,280
+TXN-0166,2025-09-02,Groceries,Trader Joe's,34.67,Credit Card,280
+TXN-0167,2025-09-03,Groceries,Aldi,11.62,Cash,280
+TXN-0168,2025-09-03,Transportation,Gas Station,3.0,Venmo,90
+TXN-0169,2025-09-03,Transportation,Gas Station,7.26,Venmo,90
+TXN-0170,2025-09-04,Transportation,Parking Meter,6.88,Debit Card,90
+TXN-0171,2025-09-04,Groceries,Walmart,22.58,Credit Card,280
+TXN-0172,2025-09-05,Textbooks,Amazon,69.66,Debit Card,60
+TXN-0173,2025-09-05,Textbooks,eBay,98.99,Debit Card,60
+TXN-0174,2025-09-05,Dining Out,Subway,6.02,Cash,120
+TXN-0175,2025-09-05,Dining Out,Chipotle,15.03,Debit Card,120
+TXN-0176,2025-09-05,Groceries,Walmart,23.57,Cash,280
+TXN-0177,2025-09-06,Dining Out,Pizza Hut,19.55,Apple Pay,120
+TXN-0178,2025-09-06,Dining Out,Starbucks,3.94,Credit Card,120
+TXN-0179,2025-09-06,Entertainment,Spotify,3.0,Credit Card,80
+TXN-0180,2025-09-07,Groceries,Walmart,10.57,Credit Card,280
+TXN-0181,2025-09-07,Subscriptions,ChatGPT Plus,15.0,Credit Card,45
+TXN-0182,2025-09-07,Groceries,Aldi,16.26,Venmo,280
+TXN-0183,2025-09-07,Transportation,Metro Card,9.48,Cash,90
+TXN-0184,2025-09-08,Transportation,Metro Card,6.53,Venmo,90
+TXN-0185,2025-09-08,Groceries,Trader Joe's,21.92,Venmo,280
+TXN-0186,2025-09-09,Dining Out,Chipotle,7.12,Debit Card,120
+TXN-0187,2025-09-09,Dining Out,Chick-fil-A,10.24,Cash,120
+TXN-0188,2025-09-10,Entertainment,AMC Theaters,12.95,Credit Card,80
+TXN-0189,2025-09-10,Dining Out,Chipotle,19.93,Debit Card,120
+TXN-0190,2025-09-10,Textbooks,Chegg,60.87,Credit Card,60
+TXN-0191,2025-09-10,Entertainment,Netflix,3.21,Venmo,80
+TXN-0192,2025-09-10,Transportation,Parking Meter,11.93,Debit Card,90
+TXN-0193,2025-09-11,Health,Walgreens,6.86,Credit Card,60
+TXN-0194,2025-09-11,Dining Out,Panera,3.0,Debit Card,120
+TXN-0195,2025-09-11,Utilities,Water Utility,99.42,Credit Card,100
+TXN-0196,2025-09-12,Entertainment,Bowling Alley,18.91,Cash,80
+TXN-0197,2025-09-12,Textbooks,Campus Bookstore,90.97,Debit Card,60
+TXN-0198,2025-09-13,Groceries,Trader Joe's,13.62,Cash,280
+TXN-0199,2025-09-14,Groceries,Aldi,15.49,Debit Card,280
+TXN-0200,2025-09-14,Transportation,Parking Meter,8.55,Venmo,90
+TXN-0201,2025-09-14,Entertainment,Concert Tickets,13.81,Debit Card,80
+TXN-0202,2025-09-14,Dining Out,Chick-fil-A,10.24,Debit Card,120
+TXN-0203,2025-09-14,Groceries,Aldi,29.51,Debit Card,280
+TXN-0204,2025-09-15,Dining Out,Subway,3.0,Debit Card,120
+TXN-0205,2025-09-17,Groceries,Costco,17.9,Debit Card,280
+TXN-0206,2025-09-18,Dining Out,Chipotle,11.86,Debit Card,120
+TXN-0207,2025-09-18,Groceries,Safeway,8.44,Debit Card,280
+TXN-0208,2025-09-19,Health,CVS Pharmacy,11.42,Debit Card,60
+TXN-0209,2025-09-19,Transportation,Metro Card,3.0,Credit Card,90
+TXN-0210,2025-09-20,Dining Out,Chick-fil-A,7.12,Cash,120
+TXN-0211,2025-09-20,Health,Campus Health Center,19.13,Venmo,60
+TXN-0212,2025-09-20,Dining Out,Chick-fil-A,14.63,Credit Card,120
+TXN-0213,2025-09-20,Dining Out,Thai Express,3.0,Cash,120
+TXN-0214,2025-09-21,Groceries,Costco,29.78,Debit Card,280
+TXN-0215,2025-09-21,Dining Out,Campus Cafe,6.75,Debit Card,120
+TXN-0216,2025-09-23,Entertainment,AMC Theaters,12.69,Cash,80
+TXN-0217,2025-09-23,Health,GNC,7.72,Debit Card,60
+TXN-0218,2025-09-23,Rent,Campus Housing Office,850.0,Credit Card,850
+TXN-0219,2025-09-24,Groceries,Walmart,12.57,Venmo,280
+TXN-0220,2025-09-24,Subscriptions,Netflix,15.0,Credit Card,45
+TXN-0221,2025-09-24,Groceries,Aldi,16.08,Apple Pay,280
+TXN-0222,2025-09-24,Dining Out,Thai Express,5.85,Venmo,120
+TXN-0223,2025-09-25,Entertainment,AMC Theaters,7.52,Venmo,80
+TXN-0224,2025-09-25,Groceries,Safeway,24.31,Debit Card,280
+TXN-0225,2025-09-25,Groceries,Aldi,7.91,Debit Card,280
+TXN-0226,2025-09-25,Groceries,Trader Joe's,13.42,Debit Card,280
+TXN-0227,2025-09-25,Groceries,Safeway,25.39,Credit Card,280
+TXN-0228,2025-09-25,Transportation,Metro Card,6.19,Cash,90
+TXN-0229,2025-09-26,Entertainment,AMC Theaters,4.94,Venmo,80
+TXN-0230,2025-09-26,Dining Out,Subway,12.72,Cash,120
+TXN-0231,2025-09-26,Entertainment,Netflix,6.86,Debit Card,80
+TXN-0232,2025-09-27,Transportation,Lyft,8.43,Apple Pay,90
+TXN-0233,2025-09-28,Groceries,Walmart,21.53,Debit Card,280
+TXN-0234,2025-09-29,Transportation,Uber,10.43,Credit Card,90
+TXN-0235,2025-09-29,Groceries,Costco,19.27,Debit Card,280
+TXN-0236,2025-09-29,Health,Walgreens,10.37,Debit Card,60
+TXN-0237,2025-09-30,Dining Out,Campus Cafe,9.67,Credit Card,120
+TXN-0238,2025-09-30,Dining Out,Chipotle,13.78,Cash,120
+TXN-0239,2025-09-30,Dining Out,Thai Express,7.56,Debit Card,120
+TXN-0240,2025-09-30,Transportation,Gas Station,10.03,Credit Card,90
+TXN-0241,2025-09-30,Clothing,Uniqlo,28.03,Venmo,50
+TXN-0242,2025-10-01,Entertainment,Netflix,8.77,Debit Card,80
+TXN-0243,2025-10-01,Transportation,Lyft,7.8,Debit Card,90
+TXN-0244,2025-10-01,Dining Out,Starbucks,10.93,Debit Card,120
+TXN-0245,2025-10-02,Transportation,Parking Meter,3.85,Debit Card,90
+TXN-0246,2025-10-02,Transportation,Metro Card,11.24,Cash,90
+TXN-0247,2025-10-02,Dining Out,Panera,3.6,Apple Pay,120
+TXN-0248,2025-10-03,Entertainment,Spotify,3.0,Debit Card,80
+TXN-0249,2025-10-03,Textbooks,Chegg,42.79,Apple Pay,60
+TXN-0250,2025-10-03,Subscriptions,Adobe CC,15.0,Debit Card,45
+TXN-0251,2025-10-04,Dining Out,Campus Cafe,5.12,Apple Pay,120
+TXN-0252,2025-10-05,Entertainment,AMC Theaters,3.0,Debit Card,80
+TXN-0253,2025-10-05,Groceries,Trader Joe's,25.62,Credit Card,280
+TXN-0254,2025-10-05,Transportation,Uber,9.96,Debit Card,90
+TXN-0255,2025-10-06,Health,CVS Pharmacy,14.98,Debit Card,60
+TXN-0256,2025-10-08,Groceries,Aldi,18.69,Venmo,280
+TXN-0257,2025-10-08,Transportation,Uber,3.0,Credit Card,90
+TXN-0258,2025-10-08,Utilities,Electric Co.,100.81,Cash,100
+TXN-0259,2025-10-08,Transportation,Metro Card,6.9,Credit Card,90
+TXN-0260,2025-10-09,Groceries,Trader Joe's,20.86,Credit Card,280
+TXN-0261,2025-10-10,Groceries,Costco,14.79,Venmo,280
+TXN-0262,2025-10-10,Subscriptions,iCloud,15.0,Debit Card,45
+TXN-0263,2025-10-10,Transportation,Lyft,9.67,Debit Card,90
+TXN-0264,2025-10-10,Transportation,Uber,5.22,Credit Card,90
+TXN-0265,2025-10-11,Dining Out,Chick-fil-A,6.22,Credit Card,120
+TXN-0266,2025-10-11,Entertainment,Concert Tickets,11.37,Cash,80
+TXN-0267,2025-10-12,Transportation,Lyft,8.29,Credit Card,90
+TXN-0268,2025-10-12,Groceries,Aldi,15.51,Venmo,280
+TXN-0269,2025-10-12,Dining Out,Panera,11.28,Cash,120
+TXN-0270,2025-10-13,Clothing,Nike,30.84,Venmo,50
+TXN-0271,2025-10-14,Groceries,Walmart,16.71,Credit Card,280
+TXN-0272,2025-10-14,Groceries,Trader Joe's,24.09,Debit Card,280
+TXN-0273,2025-10-14,Groceries,Walmart,22.15,Debit Card,280
+TXN-0274,2025-10-15,Health,Walgreens,15.77,Apple Pay,60
+TXN-0275,2025-10-15,Rent,Campus Housing Office,850.0,Credit Card,850
+TXN-0276,2025-10-15,Health,Walgreens,13.94,Debit Card,60
+TXN-0277,2025-10-15,Transportation,Uber,9.07,Cash,90
+TXN-0278,2025-10-15,Textbooks,Amazon,23.34,Venmo,60
+TXN-0279,2025-10-15,Groceries,Safeway,24.09,Debit Card,280
+TXN-0280,2025-10-17,Transportation,Gas Station,3.18,Debit Card,90
+TXN-0281,2025-10-17,Dining Out,Starbucks,3.0,Credit Card,120
+TXN-0282,2025-10-17,Groceries,Walmart,19.8,Debit Card,280
+TXN-0283,2025-10-18,Transportation,Metro Card,9.04,Venmo,90
+TXN-0284,2025-10-18,Groceries,Safeway,18.71,Venmo,280
+TXN-0285,2025-10-18,Health,GNC,16.36,Venmo,60
+TXN-0286,2025-10-19,Transportation,Gas Station,6.88,Venmo,90
+TXN-0287,2025-10-19,Dining Out,Campus Cafe,13.5,Venmo,120
+TXN-0288,2025-10-20,Textbooks,eBay,29.71,Venmo,60
+TXN-0289,2025-10-20,Groceries,Safeway,21.11,Debit Card,280
+TXN-0290,2025-10-21,Dining Out,Thai Express,14.91,Credit Card,120
+TXN-0291,2025-10-22,Rent,Campus Housing Office,850.0,Credit Card,850
+TXN-0292,2025-10-22,Transportation,Uber,3.15,Cash,90
+TXN-0293,2025-10-22,Dining Out,Panera,5.71,Credit Card,120
+TXN-0294,2025-10-22,Transportation,Uber,10.86,Apple Pay,90
+TXN-0295,2025-10-22,Groceries,Aldi,25.4,Credit Card,280
+TXN-0296,2025-10-23,Dining Out,Thai Express,15.27,Apple Pay,120
+TXN-0297,2025-10-23,Groceries,Trader Joe's,16.2,Debit Card,280
+TXN-0298,2025-10-23,Groceries,Safeway,15.83,Debit Card,280
+TXN-0299,2025-10-24,Groceries,Aldi,22.98,Apple Pay,280
+TXN-0300,2025-10-24,Clothing,H&M,35.3,Credit Card,50
+TXN-0301,2025-10-24,Groceries,Aldi,25.17,Credit Card,280
+TXN-0302,2025-10-24,Health,Walgreens,13.39,Credit Card,60
+TXN-0303,2025-10-25,Health,GNC,19.05,Debit Card,60
+TXN-0304,2025-10-25,Transportation,Metro Card,12.31,Venmo,90
+TXN-0305,2025-10-26,Groceries,Safeway,8.98,Debit Card,280
+TXN-0306,2025-10-26,Clothing,H&M,15.49,Debit Card,50
+TXN-0307,2025-10-26,Entertainment,Bowling Alley,5.58,Venmo,80
+TXN-0308,2025-10-26,Transportation,Parking Meter,7.62,Cash,90
+TXN-0309,2025-10-26,Subscriptions,Netflix,15.0,Debit Card,45
+TXN-0310,2025-10-28,Clothing,Nike,25.43,Venmo,50
+TXN-0311,2025-10-28,Groceries,Walmart,17.09,Venmo,280
+TXN-0312,2025-10-28,Health,CVS Pharmacy,24.01,Venmo,60
+TXN-0313,2025-10-29,Groceries,Walmart,18.77,Debit Card,280
+TXN-0314,2025-10-29,Groceries,Walmart,20.31,Venmo,280
+TXN-0315,2025-10-29,Health,GNC,3.0,Credit Card,60
+TXN-0316,2025-10-30,Entertainment,Bowling Alley,10.25,Apple Pay,80
+TXN-0317,2025-10-30,Entertainment,Bowling Alley,8.5,Debit Card,80
+TXN-0318,2025-10-31,Groceries,Costco,3.49,Debit Card,280
+TXN-0319,2025-11-01,Subscriptions,Adobe CC,15.0,Debit Card,45
+TXN-0320,2025-11-01,Clothing,H&M,31.61,Credit Card,50
+TXN-0321,2025-11-02,Transportation,Uber,10.07,Venmo,90
+TXN-0322,2025-11-03,Groceries,Safeway,15.15,Venmo,280
+TXN-0323,2025-11-03,Transportation,Uber,9.85,Debit Card,90
+TXN-0324,2025-11-03,Entertainment,Bowling Alley,3.18,Credit Card,80
+TXN-0325,2025-11-04,Groceries,Costco,21.63,Debit Card,280
+TXN-0326,2025-11-05,Transportation,Gas Station,8.94,Cash,90
+TXN-0327,2025-11-05,Transportation,Metro Card,3.62,Debit Card,90
+TXN-0328,2025-11-05,Clothing,Goodwill,43.79,Debit Card,50
+TXN-0329,2025-11-06,Groceries,Costco,26.3,Cash,280
+TXN-0330,2025-11-06,Transportation,Lyft,10.39,Cash,90
+TXN-0331,2025-11-06,Groceries,Aldi,14.32,Debit Card,280
+TXN-0332,2025-11-06,Entertainment,AMC Theaters,19.02,Credit Card,80
+TXN-0333,2025-11-07,Groceries,Walmart,22.57,Cash,280
+TXN-0334,2025-11-08,Entertainment,Netflix,8.52,Debit Card,80
+TXN-0335,2025-11-09,Textbooks,eBay,26.21,Cash,60
+TXN-0336,2025-11-09,Transportation,Uber,9.54,Debit Card,90
+TXN-0337,2025-11-10,Subscriptions,ChatGPT Plus,15.0,Venmo,45
+TXN-0338,2025-11-10,Transportation,Lyft,3.52,Debit Card,90
+TXN-0339,2025-11-10,Groceries,Costco,20.22,Debit Card,280
+TXN-0340,2025-11-10,Groceries,Aldi,13.13,Venmo,280
+TXN-0341,2025-11-11,Transportation,Lyft,7.34,Venmo,90
+TXN-0342,2025-11-11,Subscriptions,ChatGPT Plus,15.0,Cash,45
+TXN-0343,2025-11-11,Groceries,Safeway,23.01,Cash,280
+TXN-0344,2025-11-11,Groceries,Safeway,13.59,Venmo,280
+TXN-0345,2025-11-11,Utilities,Internet Provider,107.16,Debit Card,100
+TXN-0346,2025-11-11,Dining Out,Pizza Hut,3.0,Venmo,120
+TXN-0347,2025-11-12,Transportation,Uber,8.87,Apple Pay,90
+TXN-0348,2025-11-14,Transportation,Parking Meter,5.05,Cash,90
+TXN-0349,2025-11-14,Entertainment,Concert Tickets,3.0,Credit Card,80
+TXN-0350,2025-11-14,Transportation,Gas Station,6.99,Cash,90
+TXN-0351,2025-11-14,Groceries,Safeway,22.47,Credit Card,280
+TXN-0352,2025-11-14,Groceries,Safeway,17.71,Credit Card,280
+TXN-0353,2025-11-14,Health,Campus Health Center,18.04,Debit Card,60
+TXN-0354,2025-11-15,Textbooks,Campus Bookstore,3.0,Venmo,60
+TXN-0355,2025-11-15,Dining Out,Starbucks,10.17,Debit Card,120
+TXN-0356,2025-11-15,Health,CVS Pharmacy,12.57,Debit Card,60
+TXN-0357,2025-11-15,Groceries,Costco,24.91,Cash,280
+TXN-0358,2025-11-15,Groceries,Costco,22.54,Venmo,280
+TXN-0359,2025-11-15,Entertainment,Netflix,17.71,Credit Card,80
+TXN-0360,2025-11-17,Dining Out,Chick-fil-A,9.74,Credit Card,120
+TXN-0361,2025-11-17,Dining Out,Thai Express,6.74,Credit Card,120
+TXN-0362,2025-11-17,Transportation,Parking Meter,8.2,Venmo,90
+TXN-0363,2025-11-17,Groceries,Costco,13.63,Debit Card,280
+TXN-0364,2025-11-18,Dining Out,Panera,15.28,Debit Card,120
+TXN-0365,2025-11-18,Textbooks,Amazon,24.96,Credit Card,60
+TXN-0366,2025-11-19,Transportation,Gas Station,5.55,Cash,90
+TXN-0367,2025-11-19,Groceries,Walmart,14.21,Venmo,280
+TXN-0368,2025-11-20,Transportation,Metro Card,8.07,Credit Card,90
+TXN-0369,2025-11-21,Entertainment,Netflix,6.87,Apple Pay,80
+TXN-0370,2025-11-21,Dining Out,Thai Express,7.27,Credit Card,120
+TXN-0371,2025-11-21,Dining Out,Campus Cafe,17.2,Apple Pay,120
+TXN-0372,2025-11-22,Health,CVS Pharmacy,21.78,Venmo,60
+TXN-0373,2025-11-22,Transportation,Uber,8.69,Venmo,90
+TXN-0374,2025-11-23,Entertainment,Spotify,11.98,Debit Card,80
+TXN-0375,2025-11-23,Groceries,Safeway,6.09,Apple Pay,280
+TXN-0376,2025-11-24,Health,Walgreens,24.78,Credit Card,60
+TXN-0377,2025-11-24,Groceries,Safeway,4.75,Venmo,280
+TXN-0378,2025-11-25,Entertainment,Bowling Alley,15.24,Debit Card,80
+TXN-0379,2025-11-25,Dining Out,Thai Express,14.71,Credit Card,120
+TXN-0380,2025-11-26,Transportation,Lyft,9.97,Debit Card,90
+TXN-0381,2025-11-26,Transportation,Lyft,7.27,Apple Pay,90
+TXN-0382,2025-11-27,Dining Out,Chick-fil-A,20.22,Debit Card,120
+TXN-0383,2025-11-27,Dining Out,Starbucks,3.77,Venmo,120
+TXN-0384,2025-11-27,Groceries,Safeway,20.57,Debit Card,280
+TXN-0385,2025-11-28,Dining Out,Thai Express,22.0,Cash,120
+TXN-0386,2025-11-28,Rent,Campus Housing Office,850.0,Venmo,850
+TXN-0387,2025-11-29,Dining Out,Subway,13.98,Credit Card,120
+TXN-0388,2025-11-29,Transportation,Lyft,12.44,Cash,90
+TXN-0389,2025-11-29,Transportation,Metro Card,8.86,Debit Card,90
+TXN-0390,2025-11-30,Entertainment,Concert Tickets,11.89,Venmo,80
+TXN-0391,2025-11-30,Dining Out,Subway,9.62,Debit Card,120
+TXN-0392,2025-11-30,Dining Out,Subway,16.55,Credit Card,120
+TXN-0393,2025-11-30,Groceries,Safeway,16.35,Debit Card,280
+TXN-0394,2025-11-30,Dining Out,Thai Express,10.74,Cash,120
+TXN-0395,2025-12-01,Health,Campus Health Center,15.6,Debit Card,60
+TXN-0396,2025-12-01,Groceries,Costco,24.64,Cash,280
+TXN-0397,2025-12-01,Clothing,H&M,29.02,Cash,50
+TXN-0398,2025-12-02,Clothing,Nike,22.12,Debit Card,50
+TXN-0399,2025-12-02,Groceries,Aldi,6.21,Venmo,280
+TXN-0400,2025-12-02,Groceries,Safeway,17.55,Venmo,280
+TXN-0401,2025-12-04,Entertainment,Netflix,16.19,Venmo,80
+TXN-0402,2025-12-04,Transportation,Lyft,12.46,Venmo,90
+TXN-0403,2025-12-04,Dining Out,Thai Express,13.85,Credit Card,120
+TXN-0404,2025-12-04,Transportation,Lyft,9.25,Cash,90
+TXN-0405,2025-12-04,Health,CVS Pharmacy,19.66,Debit Card,60
+TXN-0406,2025-12-05,Transportation,Metro Card,10.67,Debit Card,90
+TXN-0407,2025-12-05,Transportation,Lyft,8.57,Credit Card,90
+TXN-0408,2025-12-07,Entertainment,Bowling Alley,15.23,Debit Card,80
+TXN-0409,2025-12-08,Groceries,Safeway,22.33,Cash,280
+TXN-0410,2025-12-08,Entertainment,AMC Theaters,15.65,Debit Card,80
+TXN-0411,2025-12-08,Health,GNC,24.82,Venmo,60
+TXN-0412,2025-12-08,Groceries,Safeway,3.0,Venmo,280
+TXN-0413,2025-12-08,Groceries,Safeway,13.63,Apple Pay,280
+TXN-0414,2025-12-08,Entertainment,Bowling Alley,12.31,Credit Card,80
+TXN-0415,2025-12-09,Groceries,Aldi,20.18,Credit Card,280
+TXN-0416,2025-12-09,Groceries,Walmart,18.99,Debit Card,280
+TXN-0417,2025-12-10,Transportation,Gas Station,3.0,Credit Card,90
+TXN-0418,2025-12-10,Transportation,Lyft,8.24,Credit Card,90
+TXN-0419,2025-12-10,Transportation,Uber,4.52,Credit Card,90
+TXN-0420,2025-12-10,Textbooks,Amazon,26.13,Debit Card,60
+TXN-0421,2025-12-10,Transportation,Lyft,6.17,Debit Card,90
+TXN-0422,2025-12-12,Subscriptions,ChatGPT Plus,15.0,Credit Card,45
+TXN-0423,2025-12-12,Groceries,Safeway,10.54,Debit Card,280
+TXN-0424,2025-12-12,Entertainment,Spotify,13.47,Credit Card,80
+TXN-0425,2025-12-12,Transportation,Uber,7.32,Credit Card,90
+TXN-0426,2025-12-13,Dining Out,Pizza Hut,9.23,Cash,120
+TXN-0427,2025-12-13,Groceries,Trader Joe's,20.3,Debit Card,280
+TXN-0428,2025-12-13,Dining Out,Campus Cafe,8.09,Debit Card,120
+TXN-0429,2025-12-14,Transportation,Parking Meter,11.87,Credit Card,90
+TXN-0430,2025-12-15,Groceries,Walmart,31.4,Cash,280
+TXN-0431,2025-12-15,Groceries,Trader Joe's,11.8,Credit Card,280
+TXN-0432,2025-12-16,Dining Out,Chipotle,16.79,Cash,120
+TXN-0433,2025-12-17,Groceries,Aldi,28.87,Debit Card,280
+TXN-0434,2025-12-18,Rent,Campus Housing Office,850.0,Apple Pay,850
+TXN-0435,2025-12-18,Groceries,Safeway,11.46,Venmo,280
+TXN-0436,2025-12-18,Groceries,Walmart,18.64,Cash,280
+TXN-0437,2025-12-19,Groceries,Trader Joe's,15.76,Debit Card,280
+TXN-0438,2025-12-19,Dining Out,Thai Express,14.41,Debit Card,120
+TXN-0439,2025-12-20,Health,Walgreens,3.74,Venmo,60
+TXN-0440,2025-12-20,Utilities,Electric Co.,101.45,Debit Card,100
+TXN-0441,2025-12-21,Dining Out,Thai Express,17.27,Credit Card,120
+TXN-0442,2025-12-21,Transportation,Uber,4.8,Debit Card,90
+TXN-0443,2025-12-21,Health,Campus Health Center,19.03,Debit Card,60
+TXN-0444,2025-12-21,Dining Out,Panera,11.6,Cash,120
+TXN-0445,2025-12-22,Transportation,Lyft,14.64,Debit Card,90
+TXN-0446,2025-12-22,Transportation,Parking Meter,7.67,Cash,90
+TXN-0447,2025-12-22,Entertainment,Concert Tickets,20.59,Debit Card,80
+TXN-0448,2025-12-23,Groceries,Walmart,19.05,Debit Card,280
+TXN-0449,2025-12-23,Dining Out,Campus Cafe,15.97,Credit Card,120
+TXN-0450,2025-12-24,Textbooks,eBay,3.0,Venmo,60
+TXN-0451,2025-12-25,Subscriptions,ChatGPT Plus,15.0,Debit Card,45
+TXN-0452,2025-12-25,Groceries,Costco,34.04,Debit Card,280
+TXN-0453,2025-12-26,Groceries,Walmart,9.68,Venmo,280
+TXN-0454,2025-12-26,Groceries,Trader Joe's,20.55,Debit Card,280
+TXN-0455,2025-12-27,Entertainment,Concert Tickets,18.58,Credit Card,80
+TXN-0456,2025-12-27,Entertainment,Bowling Alley,8.93,Debit Card,80
+TXN-0457,2025-12-27,Transportation,Parking Meter,11.09,Cash,90
+TXN-0458,2025-12-29,Dining Out,Chick-fil-A,13.9,Debit Card,120
+TXN-0459,2025-12-30,Transportation,Parking Meter,5.7,Cash,90
+TXN-0460,2025-12-30,Dining Out,Starbucks,19.96,Credit Card,120
+TXN-0461,2025-12-30,Health,Walgreens,10.73,Debit Card,60
+TXN-0462,2025-12-31,Utilities,Water Utility,89.79,Debit Card,100
+TXN-0463,2025-12-31,Groceries,Aldi,20.43,Credit Card,280
