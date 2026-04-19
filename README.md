@@ -29,13 +29,16 @@ The one that took me the longest was Budget Allocated — the naïve `SUM(budget
 
 Power BI Desktop, DAX, Python (pandas, matplotlib, seaborn).
 
+## Note on the .pbix
+
+The original Power BI Desktop file from when I built this is no longer on my machine (it was lost in a drive cleanup before I pushed this repo). What's here is the reproducible guts — the synthetic data generator, the DAX measure reference, and the Python companion that rebuilds the same chart set. If you want to actually click through the dashboard you'd need to recreate the visuals in Power BI from the measures in [`dax_measures.md`](dax_measures.md); the `screenshots/` folder shows how the final pages looked.
+
 ## Run
 
-Open `student_budget.pbix` in Power BI Desktop. Or:
-
 ```bash
-python generate_data.py
-python analyze.py
+pip install -r requirements.txt
+python generate_data.py   # writes data/student_spending.csv
+python analyze.py         # Python version of the dashboard
 ```
 
 See `screenshots/` for the remaining dashboard pages (payment method breakdown, top vendors, category donut, burn rate projection).
