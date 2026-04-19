@@ -1,29 +1,41 @@
+![Monthly spending trend](screenshots/01_monthly_trend.png)
+*Monthly spending vs. budget across a 6-month window, with MoM variance arrows.*
+
 # Student Budget Tracker — Power BI
 
-I wanted to learn Power BI and DAX, so I built a dashboard around something I actually care about — where my money goes as a college student.
+Built this to learn Power BI + DAX. Tracks spending across categories (rent, food, transport, entertainment) over 6 months and pulls out the patterns I wouldn't otherwise notice — which categories blow through budget, which days of the week are expensive, where I'm actually spending vs. where I *think* I'm spending.
 
-## What it does
+## Dashboard pages
 
-Tracks spending across categories (food, rent, transport, entertainment, etc.) over 6 months and visualizes trends, category breakdowns, and monthly comparisons.
+![Category breakdown and budget vs actual](screenshots/03_budget_vs_actual.png)
 
-## What's in here
+The budget-vs-actual view was the one that changed my behavior the most — "Food Delivery" turned out to be ~2x what I had mentally budgeted. The conditional formatting flags any category more than 10% over budget.
 
-- `data/` — transaction dataset (synthetic — generated with `generate_data.py` since I wasn't about to upload my real bank statements)
-- `dax_measures.md` — the 11 DAX measures I wrote, with explanations for each
-- `analyze.py` — Python companion analysis (pandas, matplotlib, seaborn)
-- `screenshots/` — dashboard screenshots
+![Weekday spending heatmap](screenshots/04_spending_heatmap.png)
 
-## DAX measures I built
+Heatmap of spending by day-of-week × category. Friday and Saturday dominate, mostly driven by food and entertainment categories.
 
-Wrote 11 custom measures including running totals, month-over-month change, category percentages, and conditional formatting logic. See `dax_measures.md` for the full list with explanations.
+## DAX
 
-## What I learned
+Wrote 11 custom measures — total spending, monthly burn rate, budget allocated (with SUMMARIZE to dedupe per category), budget variance %, month-over-month change with DATEADD, running totals with DATESYTD, a days-remaining calculation for the burn rate projection. Full list with code and commentary in [`dax_measures.md`](dax_measures.md).
 
-- Power BI data modeling (relationships, star schema)
-- DAX from scratch — calculated columns vs measures, CALCULATE, SUMX, time intelligence
-- When to use Python for analysis vs when Power BI handles it natively
-- Dashboard layout — making something that actually answers a question at a glance
+The one that took me the longest was Budget Allocated — the naïve `SUM(budget_allocated)` double-counts because each transaction row carries the monthly budget. Fix was a SUMX over a SUMMARIZE that deduplicates per category per month. Classic DAX gotcha.
 
-## Tech
+## Data
 
-Power BI Desktop, DAX, Python (pandas, matplotlib, seaborn)
+`generate_data.py` produces a synthetic `student_spending.csv` (~6 months of realistic-ish transactions across 8 categories, 4 payment methods, 20-ish vendors). I wasn't going to upload my real bank statements. `analyze.py` is a Python companion that reproduces the core charts in pandas/seaborn for anyone who doesn't have Power BI Desktop.
+
+## Stack
+
+Power BI Desktop, DAX, Python (pandas, matplotlib, seaborn).
+
+## Run
+
+Open `student_budget.pbix` in Power BI Desktop. Or:
+
+```bash
+python generate_data.py
+python analyze.py
+```
+
+See `screenshots/` for the remaining dashboard pages (payment method breakdown, top vendors, category donut, burn rate projection).
