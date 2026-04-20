@@ -3,6 +3,16 @@
 
 # Student Budget Tracker — Power BI
 
+[![analysis](https://github.com/AwpDemon/student-budget-powerbi/actions/workflows/analysis.yml/badge.svg)](https://github.com/AwpDemon/student-budget-powerbi/actions/workflows/analysis.yml)
+[![license: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+![python](https://img.shields.io/badge/python-3.11-blue)
+
+**Highlights**
+- Power BI dashboard with **11 custom DAX measures** across 6 months of spending — budget variance, MoM change with `DATEADD`, running totals with `DATESYTD`, burn-rate projection.
+- Two-layer anomaly detector flags weird transactions and cluster-spend days (per-category + 14-day rolling z-score).
+- **Holt's linear-trend forecast** with bootstrapped 80% prediction intervals — currently projecting $2,030 ± $290/mo against a $2,200 budget.
+- **Standalone `dashboard.html`** — single-file interactive Plotly dashboard with a payment-method filter, no server needed.
+
 Built this to learn Power BI + DAX. Tracks spending across categories (rent, food, transport, entertainment) over 6 months and pulls out the patterns I wouldn't otherwise notice — which categories blow through budget, which days of the week are expensive, where I'm actually spending vs. where I *think* I'm spending.
 
 ## Dashboard pages

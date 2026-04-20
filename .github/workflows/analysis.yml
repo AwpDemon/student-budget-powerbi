@@ -1,0 +1,45 @@
+name: analysis
+
+on:
+  push:
+    branches: [master, main]
+  pull_request:
+    branches: [master, main]
+  workflow_dispatch:
+
+jobs:
+  run-pipeline:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Install deps
+        run: pip install -r requirements.txt
+
+      - name: Generate synthetic spending data
+        run: python generate_data.py
+
+      - name: Core dashboard charts
+        run: python analyze.py
+
+      - name: Anomaly detection
+        run: python anomaly_detection.py
+
+      - name: 3-month forecast
+        run: python forecast.py
+
+      - name: Interactive HTML dashboard
+        run: python build_dashboard.py
+
+      - name: Check outputs
+        run: |
+          test -f dashboard.html
+          test -f screenshots/08_anomalies.png
+          test -f screenshots/09_forecast.png
+          echo "end-to-end pipeline ran"
